@@ -71,7 +71,7 @@ class CalendarView: UICollectionView,UICollectionViewDelegate,UICollectionViewDa
         self.getDatesBlock?(dayLabel)
     }
    
-    /// 获取指定月份的所有日期
+    /// 获取指定月份的天数
     func calculateDaysInDateMonth(_ date: Date) -> Int {
         let calendar = Calendar(identifier: .gregorian)
         //指定日期转换
